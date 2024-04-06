@@ -1,0 +1,81 @@
+body{
+    background-image:url(background.jpg);
+  background-size: cover;
+  color: white;
+}
+
+#logo{
+    width: 20%;
+    height: 20%;
+}
+
+* {
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.container{
+    margin: auto;
+    width: 60%;
+    height: 90%;
+    padding: 3%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+    
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color:lime;
+}
+
+nav{
+    background-color: lime;
+    padding: 1%;
+    margin:auto;
+}
+
+nav > div{
+    text-align: center;
+}
+
+
+
+div >h2{
+    display: inline-block;
+}
+
+main span{
+    display: block;
+}
+
+div > span:before{ /*Freccia*/
+    content: "\21A6";
+}
+
+.statobatteriagino{
+    display: block;
+    background-color: rgb(255, 189, 67);
+    border-radius: 10px;
+    height: 30px;
+    width: 30%;
+}
+
+.statobatteriamike{
+    display: block;
+    background-color:rgb(2, 189, 2);
+    border-radius: 10px;
+    height: 30px;
+    width: 60%;
+}
+
+.statobatteriafede{
+    display: block;
+    background-color:rgb(220, 46, 46);
+    border-radius: 10px;
+    height: 30px;
+    width: 12%;
+}
